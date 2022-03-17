@@ -1,0 +1,237 @@
+:root {
+    --red-color: #D40100;
+}
+
+#top {
+    background-color: black !important;
+    margin: 0;
+    text-align: right !important;
+    padding-right: 0;
+}
+
+#navItem {
+    color: white !important;
+    font-size: 1.5em !important;
+    padding-left: 100px !important;
+    padding-right: 10px !important;
+    margin-right: 0px;
+}
+
+#navItem:hover {
+    color: #c29131 !important;
+}
+
+#hamburgerButton {
+    background-color: white !important;
+    z-index: 0;
+    margin-right: 10px
+}
+
+#logoId {
+    width: 100px;
+    height: 90px;
+    margin-right: 25px;
+}
+
+#containerNavId {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    z-index: 100;
+}
+
+@media only screen and (min-width: 600px) {
+    #navItem {
+        padding-left: 0px;
+    }
+}
+
+#bannerImg {
+    padding-bottom: 40px;
+    height: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Orbitron&display=swap');
+#bannerH1 {
+    font-family: 'Changa', sans-serif;
+}
+
+#bannerH5 {
+    font-family: 'Changa', sans-serif;
+}
+
+
+footer {
+    text-align: center !important;
+    font-size: 18px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #e8ffff;
+    }
+    #header {
+        background-color: #e8ffff !important;
+    }
+}
+
+footer {
+    background-color: black !important;
+    color: white !important;
+}
+
+strong {
+    font-size: 28px;
+    color: #c29131 !important;
+}
+
+#cardStrong {
+    font-size: 18px;
+    color: #c29131 !important;
+}
+
+#nonLinkFooter {
+    font-size: 18px;
+}
+
+.linkFooter {
+    font-size: 18px !important;
+    color: white !important
+}
+
+#navLinks {
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-inline button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+}
+
+.form-inline button:hover {
+    background-color: royalblue;
+}
+
+.formElement {
+    display: inline-block;
+    width: 15%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+.formElementBtn {
+    display: inline-block;
+    width: 15%;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+@media (max-width: 800px) {
+    .formElement {
+        display: inline-block;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .formElementBtn {
+        display: inline-block;
+        width: 100%;
+        padding-top: 10px;
+        margin: auto;
+        font-size: 15px;
+    }
+}
+
+#picsH2 {
+    text-align: center;    
+    font-family: 'Staatliches', cursive;
+    color: #c29131 !important;
+    font-size: 45px ;
+}
+
+
+
+body {
+    font-family: 'Staatliches', cursive;
+}
+
+#bannerH1 {
+    font-size: 75px; 
+    font-family: 'Staatliches', cursive;
+    
+}
+
+#bannerH5 {
+    font-size: 35px; 
+    font-family: 'Staatliches', cursive;
+    
+}
+
+#x {
+    color: #c29131 !important;
+}
+
+#tHead {
+    text-align: center;
+}
+
+#tBody {
+    text-align: center;
+    
+}
+
+#tableH2 {
+    color: #c29131 !important;
+    text-align: center;
+    padding-right: 130px;
+    font-size: 40px;
+}
+
+
+#tableHead {
+    font-size: 25px;
+}
+
+#tableRow {
+    font-size: 20px;
+}
+
+#historyA {
+    color: #c29131;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#historyP {
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+}
+
+#videosH4 { 
+    text-align: center;
+    font-size: 22px;
+}
+
+#videosSpan { 
+    color: #c29131 !important;
+    text-align: center;
+    font-size: 22px;
+}
