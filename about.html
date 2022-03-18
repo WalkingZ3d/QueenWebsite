@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Queen Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light" id="top">
+        <div class="container-md d-flex" id="containerNavId">
+            <a class="navbar-brand" href="index.html"><img src="Queen Logo.png" alt="logo" id="logoId"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="hamburgerButton">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+            <div class="collapse navbar-collapse justify-content-right " id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="music.html" id="navItem" target="_blank">Music Library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html" id="navItem"  target="_blank">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="members.html" id="navItem"  target="_blank">The Members</a>
+                    </li>      
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" id="navItem"  target="_blank">About</a>
+                    </li>               
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div id="intro-example" class="p-5 text-center bg-image" style="background-image: url(/queen\ banner.jpg); background-size: cover; height: 700px;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    
+                    <h1 class="mb-3" id="bannerH1">Queen Official Website</h1>
+                    <h5 class="mb-4" id="bannerH5">About Page</h5>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <footer>
+        <br><br>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-12 ">
+                    <p><strong>Sign Up For The Queen Mailing List & Newsletter: </strong></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="width: 100%; background-color: black; ">
+            <form>
+                <label for="email " class="formElement ">Name:</label>
+                <input type="text " id="text " placeholder="Enter Name " class="formElement " required>
+                <label for="pwd " class="formElement ">Email:</label>
+                <input type="email " id="email " placeholder="Enter email " class="formElement " pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}+\.[a-z]{2,3}' required>
+                <br><br>
+                <button type="submit " class="formElementBtn " style="background-color: #c29131 !important; border: none;">Submit</button>
+            </form>
+        </div>
+        
+        <br><br><br>
+        <div class="row ">
+            <div class="col "><strong>Contact Us</strong></div>
+            <div class="col "><strong>Products</strong></div>
+            <div class="col "><strong>Legal</strong></div>
+            <div class="col "><strong>Socials</strong></div>
+        </div>
+        <br>
+        <div class="row ">
+            <div class="col " id="nonLinkFooter ">+44 4542 787545</div>
+            <div class="col ">
+                <a href="# " target="_blank " class="linkFooter ">Merchandise Store</a> </div>
+            <div class="col "> <a href="# " target="_blank " class="linkFooter ">Music licenses</a></div>
+            <div class="col "> <a href="https://twitter.com/queenwillrock " target="_blank " class="linkFooter ">Twitter</a></div>
+        </div>
+        <br>
+        <div class="row ">
+            <div class="col " id="nonLinkFooter ">support@queenband.com</div>
+            <div class="col "> <a href="# " target="_blank " class="linkFooter ">Tour Tickets</a></div>
+            <div class="col "> <a href="# " target="_blank " class="linkFooter ">Charity Affliations</a></div>
+            <div class="col "> <a href="https://www.youtube.com/Queen " target="_blank " class="linkFooter ">Youtube</a></div>
+        </div>
+        <br><br>
+        </div>
+        <p id="x">Made by Dan Willis</p>
+    </footer>
+</body>
+</html>
